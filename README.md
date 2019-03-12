@@ -10,8 +10,8 @@ Following these methods will require having:
 
 This tutorial assumes the user has basic knowledge of all three softwares.
 
-##Method One: Using GitHub Desktop to Deploy Website
-###On GitHub Profile:
+## Method One: Using GitHub Desktop to Deploy Website
+### On GitHub Profile:
 
 Create a new repository on your profile and initialize the repository with a README. Navigate to the code tab of the repository and click the 'clone or download' button. Select 'open in desktop'.
 
@@ -19,7 +19,7 @@ GitHub Desktop should automatically open. Clone the repository.
 
 If you go into File Explorer, there should be a folder called 'GitHub' under Documents. Any repositories cloned using GitHub Desktop will show up in here as their own folder. Navigate to this folder and add a new folder called 'docs'.
 
-###In RStudio:
+### In RStudio:
 
 Create a New Markdown.
 
@@ -28,11 +28,11 @@ Create a New Markdown.
 
 Make any changes you would like to the document. Save the markdown to the 'docs' folder we created earlier and name it 'index'. Knit the markdown together.
 
-###GitHub Desktop
+### GitHub Desktop
 
 When you go back to GitHub Desktop, you should see all the changes that were made to the repository. In the bottom left, fill out the summary of what happened and and commit the changes.
 
-###On GitHub Profile
+### On GitHub Profile
 
 Go back to your profile on GitHub. You may need to refresh the page, but all changes just made to the repository should be seen under the code tab.
 
@@ -45,8 +45,8 @@ A band saying 'Your Site is published at...' should appear. At first it will be 
 
 As stated previously, this is a simple method to get an r markdown on GitHub without extensive development. The next method gives more options for customization and provides a more fleshed out website.
 
-##Method 2: Using Git and RStudio to Deploy GitHub Page
-###On GitHub Profile:
+## Method 2: Using Git and RStudio to Deploy GitHub Page
+### On GitHub Profile:
 
 This method begins, similarly to the first. On GitHub, create a new repository.
 
@@ -59,8 +59,8 @@ This time, however:
 
 Navigate to the code tab of the repo and click the 'clone or download' button. Click the clipboard icon to copy the URL to the clipboard.
 
-###In RStudio:
-####Make a New Project
+### In RStudio:
+#### Make a New Project
 
   * File > New Project
   * Select Version Control
@@ -70,7 +70,7 @@ Navigate to the code tab of the repo and click the 'clone or download' button. C
 
 You should notice that by the 'Environment' tab, there should now be a 'Git' tab as well. This can be used to commit changes to the repository, however, below this tutorial walks through making changes to the repo using the 'Terminal'.
 
-####Make a Markdown
+#### Make a Markdown
 
 Each markdown you create in this project will be a page on the website when it is finished. GitHub Pages requires for there to be one page called 'index.html'. It makes the most sense if this is the homepage for the website, though it doesn't have to be.
 
@@ -82,7 +82,7 @@ Create a new markdown
 
 Follow this process as many times as you need to get all the pages for the website. Note that the name of the markdown will show up in the URL as you click through the website. Name each markdown appropriately to associate with the page the user will be seeing.
 
-####Creating a YAML for the site
+#### Creating a YAML for the site
 
 We will now create the structure of the website using a YAML.
 
